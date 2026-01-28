@@ -24,11 +24,29 @@ The app features a rich cyberpunk aesthetic with:
 
 ## Getting Started
 
-### Prerequisites
+### 🚀 EASIEST METHOD - No Installation Required!
+
+**Perfect for non-programmers!** Just download and open in your browser:
+
+1. **Download the file**: Go to the GitHub repository
+2. **Find the file**: Look for `collab-timer.html`
+3. **Download it**: Click on the file, then click the "Download" button (or right-click "Raw" and save)
+4. **Double-click** the downloaded file - it will open in your default browser
+5. **Done!** No installation, no command line, no Node.js required
+
+**To use fullscreen**: Press **F11** in your browser (press F11 again to exit fullscreen)
+
+---
+
+### 🛠️ Advanced Method - For Developers
+
+If you want to modify the code or run the React development version:
+
+#### Prerequisites
 
 You need Node.js installed on your computer. Download it from [nodejs.org](https://nodejs.org/).
 
-### Installation
+#### Installation
 
 1. Clone this repository or download the files
 2. Open a terminal/command prompt in the project folder
@@ -38,7 +56,7 @@ You need Node.js installed on your computer. Download it from [nodejs.org](https
 npm install
 ```
 
-### Running the App
+#### Running the App
 
 Start the development server:
 
@@ -48,7 +66,7 @@ npm run dev
 
 This will start the app and display a local URL (usually `http://localhost:5173`). Open that URL in your browser.
 
-### Building for Production
+#### Building for Production
 
 To create a production-ready version:
 
@@ -91,12 +109,13 @@ Works best in modern browsers:
 
 ```
 collab-stopwatch/
+├── collab-timer.html    # 🎯 STANDALONE VERSION - Just download and open!
 ├── src/
-│   ├── App.jsx          # Main timer component
+│   ├── App.jsx          # Main timer component (React version)
 │   ├── App.css          # Cyberpunk styling and animations
 │   ├── main.jsx         # React entry point
 │   └── index.css        # Global styles
-├── index.html           # HTML template
+├── index.html           # HTML template (React version)
 ├── package.json         # Dependencies and scripts
 ├── vite.config.js       # Vite configuration
 └── README.md           # This file
